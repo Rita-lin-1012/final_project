@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="log_in.css">
+</head>
+<body>
+    <!-- Header -->
+		<header class="header">
+			<nav class="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="member.info.html">my account</a></li>
+				</ul>
+            </nav>
+        </header>
+<!--header-->
+<div class="container header">
+    <div class="row header d-flex justify-content-around align-items-center">
+        <div class="col-6 col-md-3 col-lg-2 logo">
+            <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="col-6 col-md-7 manu d-flex justify-content-end">
+            <div class="manu-list d-none d-lg-flex">
+                <a href="index.html"><h1 class="text-dark">微光咖啡</h1></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 中間log in區塊 -->
+<div class="container log-in-content">
+    <div class="row d-flex">
+        <div class="col-12 col-lg-8">
+            <img class="img-fluid" src="img/banner.jpg" alt="">
+        </div>
+        <div class="log-in-form col-12 col-lg-4">
+            <h2>Log in</h2>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">帳號</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">密碼</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="log-in-check d-flex justify-content-between">
+                    <a href="#" class="text-primary">忘記密碼</a>
+                    <div class="log-in-check-btn">
+                        <button type="submit" class="btn btn-white text-primary">註冊</button>
+                        <button type="submit" class="btn btn-primary">登入</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--footer下面 -->
+<div class="footer-nav container-fluid bg-primary">
+    <div class="container">
+        <div class="row py-8">
+            <div class="col-12 col-md-8 d-flex align-items-center px-0">
+                <a href="firstpage.html">
+                    <img class="mr-2 mr-md-8" src="img/footerlogo.png" alt="">
+                </a>
+                <small class="text-white">© 2020. All Rights Reserved.</small>
+            </div>
+            <ul class="footer-navbar col-md-4 d-none d-lg-flex justify-content-end list-unstyled align-items-center mb-0">
+                <li><a href="product-list.html" class="text-white">product</a></li>
+                <li><a href="#" class="text-white">blog</a></li>
+                <li><a href="#" class="text-white">contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
